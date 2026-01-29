@@ -2,12 +2,9 @@ fastapi
 uvicorn
 beautifulsoup4
 requests
-openai
 python-dotenv
 pydantic
-httpx
 lxml
-langchain
 langchain-openai
 langchain-community
 langchain-core
