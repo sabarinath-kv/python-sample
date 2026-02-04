@@ -1,0 +1,50 @@
+# Test files
+test_endpoint.py
+langchain_examples.py
+
+# Documentation
+*.md
+README.md
+LANGCHAIN_GUIDE.md
+
+# Development files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Environment
+.env
+.env.local
+venv/
+env/
+ENV/
+.venv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Workspace files
+*.code-workspace
+

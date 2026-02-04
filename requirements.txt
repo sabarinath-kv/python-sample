@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 beautifulsoup4
 requests
 python-dotenv
@@ -9,4 +9,3 @@ langchain-openai
 langchain-community
 langchain-core
 langchain-text-splitters
-litellm[proxy]

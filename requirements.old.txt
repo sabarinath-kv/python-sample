@@ -1,0 +1,17 @@
+# OLD requirements.txt (caused 250MB+ deployment size)
+fastapi
+uvicorn
+beautifulsoup4
+requests
+openai
+python-dotenv
+pydantic
+httpx
+lxml
+langchain
+langchain-openai
+langchain-community
+langchain-core
+langchain-text-splitters
+litellm[proxy]
+
