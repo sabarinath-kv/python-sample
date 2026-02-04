@@ -1,16 +1,16 @@
 {
     "version": 2,
     "functions": {
-        "app.py": {
-            "runtime": "python3.9",
-            "memory": 1024,
-            "maxDuration": 30
-        }
+      "api/app.py": {
+        "runtime": "python3.9",
+        "memory": 1024,
+        "maxDuration": 30
+      }
     },
     "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/app.py"
-        }
+      {
+        "source": "/(.*)",
+        "destination": "/api/app.py"
+      }
     ]
-}
+  }
